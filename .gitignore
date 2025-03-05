@@ -1,0 +1,7 @@
+# Abaikan folder virtual environment
+bootstrap/
+
+# Abaikan file yang tidak ingin di-push
+#*.log
+*.zip
+#.DS_Store
