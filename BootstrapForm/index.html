@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-</head>
-<body class="bg-secondary">
-
-<!--Navbar-->
-<nav class="navbar bg-body-tertiary navbar-expand-lg bg-secondary" data-bs-theme="dark">
-    <div class="container-fluid">
+     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-secondary">
+    <!--Navbar-->
+    <nav
+      class="navbar bg-body-tertiary navbar-expand-lg bg-secondary"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <i class="bi bi-braces"></i>
-            Bootstrap Form
+          <i class="bi bi-braces"></i>
+          Bootstrap Form
         </a>
+      </div>
+    </nav>
 
-    </div>
-</nav>
-
-<!--Form-->
-<div class="container my-5 bg">
-    <div class="row justify-content-center">
+    <!--Form-->
+    <div class="container my-5 bg">
+      <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="card bg-black bg-opacity-25">
-                <div class="card-header">
-                    <h4 class="text-center text-light mb-2">Form Login Bootstrap</h4>
-                </div>
-                <div class="card-body">
-                    <form>
-                        <div class="mb-3 text-light">
-                            <label for="nama" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control"  id="nama" placeholder="Masukkan Nama Lengkap">
-                        </div>
-                        <div class="mb-3 text-light">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control"  id="email" placeholder="nama123@example.com">
-                        </div>
-                        <div class="mb-3 text-light">
-                            <label for="telepon" class="form-label">Nomor Telepon</label>
-                            <input type="tel" class="form-control"  id="telepon" placeholder="0812345678">
-                        </div>
-                        <div class="mb-3 text-light">
-                            <label for="komentar" class="form-label">Masukkan Komentar</label>
-                            <textarea class="form-control" id="komentar" rows="4" placeholder="Tulis Komentar Disini"></textarea>
-                        </div>
-
-                        <div class="d-grid ">
-                            <button type="submit" class="btn btn-dark">Kirim</button>
-                        </div>
-                    </form>
-                </div>
+          <div class="card bg-black bg-opacity-25">
+            <div class="card-header">
+              <h4 class="text-center text-light mb-2">Form Login Bootstrap</h4>
             </div>
+            <div class="card-body">
+              <form>
+                <div class="mb-3 text-light">
+                  <label for="nama" class="form-label">Nama Lengkap</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nama"
+                    placeholder="Masukkan Nama Lengkap"
+                  />
+                </div>
+                <div class="mb-3 text-light">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="nama123@example.com"
+                  />
+                </div>
+                <div class="mb-3 text-light">
+                  <label for="telepon" class="form-label">Nomor Telepon</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="telepon"
+                    placeholder="0812345678"
+                  />
+                </div>
+                <div class="mb-3 text-light">
+                  <label for="komentar" class="form-label"
+                    >Masukkan Komentar</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="komentar"
+                    rows="4"
+                    placeholder="Tulis Komentar Disini"
+                  ></textarea>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-dark">Kirim</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<script src="../bootstrap/js/bootstrap.min.js"></script>
-</body>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -7,19 +6,8 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
-    <style>
-        html, body {
-            height: 100%;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Pastikan body mengambil tinggi minimal viewport */
-        }
-    </style>
 </head>
-<body>
-
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
 <div id="menu" class="container mt-5">
     <h2 class="text-center mb-4">Menu Kami</h2>
     <div class="row">
@@ -74,33 +62,28 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-5">
-
                     <form action="">
-                    <div class="nama-pelanggan row">
-                        <label class="col-6" for="nama-pelanggan">Nama Pelanggan</label>
-                        <input class="col-6" type="text" name="nama-pelanggan" id="nama-pelanggan" placeholder="Masukkan Nama Pelanggan" required>
-                    </div>
-
-
-                    <div class="nama-produk row mt-3">
-                        <label class="col-6" for="nama-produk">Nama Produk</label>
-                        <select class="col-6" type="text" name="nama-produk" id="nama-produk" placeholder="Masukkan Nama Pelanggan" required>
-                            <option value="americano">Americano</option>
-                            <option value="iced-vanilla-almond">Iced Vanilla Almond</option>
-                            <option value="latte-machiato">Latte Machiato</option>
-                            <option value="mocha">Mocha</option>
-                        </select>
-                    </div>
-
-                    <div class="jumlah-pesanan row mt-3">
-                        <label class="col-6" for="jumlah-pesanan">Jumlah Pesanan</label>
-                        <input class="col-6" type="number" name="jumlah-pesanan" id="jumlah-pesanan">
-                    </div>
-
-                    <div class="harga row mt-3">
-                        <label class="col-6" for="harga">Harga</label>
-                        <input class="col-6" type="number" name="harga" id="harga">
-                    </div>
+                        <div class="nama-pelanggan row">
+                            <label class="col-6" for="nama-pelanggan">Nama Pelanggan</label>
+                            <input class="col-6" type="text" name="nama-pelanggan" id="nama-pelanggan" placeholder="Masukkan Nama Pelanggan" required>
+                        </div>
+                        <div class="nama-produk row mt-3">
+                            <label class="col-6" for="nama-produk">Nama Produk</label>
+                            <select class="col-6" name="nama-produk" id="nama-produk" required>
+                                <option value="americano">Americano</option>
+                                <option value="iced-vanilla-almond">Iced Vanilla Almond</option>
+                                <option value="latte-machiato">Latte Machiato</option>
+                                <option value="mocha">Mocha</option>
+                            </select>
+                        </div>
+                        <div class="jumlah-pesanan row mt-3">
+                            <label class="col-6" for="jumlah-pesanan">Jumlah Pesanan</label>
+                            <input class="col-6" type="number" name="jumlah-pesanan" id="jumlah-pesanan">
+                        </div>
+                        <div class="harga row mt-3">
+                            <label class="col-6" for="harga">Harga</label>
+                            <input class="col-6" type="number" name="harga" id="harga">
+                        </div>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -112,11 +95,10 @@
     </div>
 </div>
 
-<div class="footer mt-5 d-flex align-items-end justify-content-center">
+<div class="footer d-flex align-items-center justify-content-center">
     <h6>Copyright © 2025</h6>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
 </body>
 </html>

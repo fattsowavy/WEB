@@ -1,5 +1,5 @@
 # Abaikan folder virtual environment
-bootstrap/
+#bootstrap/
 
 # Abaikan file yang tidak ingin di-push
 #*.log
