@@ -1,13 +1,36 @@
-.menu {
-    background: #333;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.menu li {
-    color: white;
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: blueviolet;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a {
     text-decoration: none;
-    margin: 0 15px;
+    font-size: 16px;
+    padding: 20px 12px;
+    color: black;
+    display: block;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
 }
