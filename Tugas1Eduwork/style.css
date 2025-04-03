@@ -1,0 +1,13 @@
+.menu {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu li {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
